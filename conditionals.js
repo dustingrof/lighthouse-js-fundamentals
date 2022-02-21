@@ -1,5 +1,6 @@
+/*//simple conditional
 const raining = true;
-const cold = false;
+const cold = true;
 
 if (raining) {
   console.log("Don't forget your umbrella!");
@@ -8,8 +9,11 @@ if (cold) {
   console.log("Make sure you pick out a scarf!");
 }
 console.log("Now you're ready to go outside!");
+*/
 
-const temperature = 12;
+
+//second example of code.. a bit more specific. if based on temperature
+const temperature = 32;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -18,5 +22,5 @@ if (temperature < 0) {
 } else {
   console.log("Short sleeves are fine.");
 }
-
 console.log("Now you're ready to go outside!");
+
