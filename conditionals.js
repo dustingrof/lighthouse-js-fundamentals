@@ -1,15 +1,18 @@
-/*//simple conditional
+//simple conditional
 const raining = true;
 const cold = true;
 
 if (raining) {
   console.log("Don't forget your umbrella!");
 }
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
 if (cold) { 
   console.log("Make sure you pick out a scarf!");
 }
 console.log("Now you're ready to go outside!");
-*/
+
 
 
 //second example of code.. a bit more specific. if based on temperature
@@ -24,3 +27,12 @@ if (temperature < 0) {
 }
 console.log("Now you're ready to go outside!");
 
+
+/* // citizen example here
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+} 
+*/
