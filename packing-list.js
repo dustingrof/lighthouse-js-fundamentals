@@ -3,6 +3,6 @@ const packingList = ["bowls", "plates", "pots", "pans", "eating utensils", "glas
 console.log("Kitchen stuff to pack:");
 let i = 0;
 while (i < packingList.length) {
-  console.log(packingList[i}]);
+  console.log(packingList[i]);
   i++;
 }
